@@ -12,7 +12,7 @@ public class TestaInsere {
 		Contato contato = new Contato();
 		contato.setNome("Gláucia");
 		contato.setEmail("glaucia@email.com");
-		contato.setEndereço("Rua Minha'Rua, 666");
+		contato.setEndereco("Rua Minha'Rua, 666");
 		contato.setDataNascimento(Calendar.getInstance());
 		
 		ContatoDAO dao = new ContatoDAO();
